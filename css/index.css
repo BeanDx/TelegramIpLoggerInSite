@@ -1,0 +1,14 @@
+body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 569.99px) {
+    .main img {
+        height: 300px;
+        width: 300px;
+    }
+}
